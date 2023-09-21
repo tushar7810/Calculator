@@ -10,26 +10,26 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: crimson;
-    height: 100%;
-    width: 33%;
+    height: 90%;
+    width: 85%;
     border: 5px solid white;
     border-radius: 10px;
 }
 button{
-    height: 45px;
-    width: 45px;
-    font-size: 2rem;
+    height: 140px;
+    width: 140px;
+    font-size: 4rem;
     border: 2px solid black;
     border-radius: 50%;
-    margin: 9px;
+    margin: 15px;
     box-shadow: 2px 5px 7px white;
 }
 .input{
-    height: 63px;
-    width: 323px;
+    height: 200px;
+    width: 700px;
     margin: 10px 0px;
     border: 2px solid black;
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 900;
     text-align: center;
     border-radius: 15px;
@@ -38,10 +38,9 @@ button:hover{
     background-color: yellow;
 }
 h1{
-    font-size: 2rem;
+    font-size: 4rem;
 }
-
-@media all and (max-width:600px){
+@media all and (max-width:500px){
     body{
         display: flex;
         justify-content: center;
