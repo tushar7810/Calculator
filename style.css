@@ -24,6 +24,7 @@ button{
     margin: 15px;
     box-shadow: 2px 5px 7px white;
     cursor: pointer;
+    transition: all ease 0.4s;
 }
 .input{
     height: 200px;
@@ -35,8 +36,9 @@ button{
     text-align: center;
     border-radius: 15px;
 }
-button:hover{
+button:active{
     background-color: yellow;
+    scale: 0.9;
 }
 h1{
     font-size: 4rem;
@@ -68,6 +70,7 @@ h1{
         margin: 5px;
         box-shadow: 2px 5px 7px white;
         cursor: pointer;
+        transition: all ease 0.4s;
     }
     .input{
         height: 63px;
@@ -81,6 +84,7 @@ h1{
     }
     button:hover{
         background-color: yellow;
+        scale: 0.9;
     }
     h1{
         font-size: 2rem;
